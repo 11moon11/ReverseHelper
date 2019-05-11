@@ -16,9 +16,9 @@ At the moment very few WinAPI calls are supported.
 2. For GUI NANA library is used: https://github.com/cnjinhao/nana/
 
 # How to add more calls:
-1. Create a header file at: 'Header Files/HookedFunctions/<Module>/<Function>.h' (in 'Project Explorer' view in Visual Studio)
+1. Create a header file at: 'Header Files/HookedFunctions/\<Module\>/\<Function\>.h' (in 'Project Explorer' view in Visual Studio)
     - Function must be replaced with the name of the WinAPI call (ex: MessageBox)
-    - <Module> should be replaced with the module function comes from (ex: User32)
+    - \<Module\> should be replaced with the module function comes from (ex: User32)
 2. Add function difinitions (Can be found on MSDN)
   MessageBoxW example:
   ```CPP
